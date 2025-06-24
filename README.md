@@ -28,7 +28,7 @@ Open your terminal and run the following command:
 
 ```bash
 git clone https://github.com/rashedulalam46/expressjs-crud-api.git
-cd expressjs-crud-api.git
+cd expressjs-crud-api
 npm install
 ```
 
