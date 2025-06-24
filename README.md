@@ -48,22 +48,28 @@ You can use Postman or any REST client to test the endpoints. Make sure the serv
 
 
 📮 API Endpoints (CRUD)
+
 GET /api/users
+
 🔹 Fetch all users
 
 POST /api/users
 🔹 Create a new user
+
 🔸 Body Example:
 
 ```bash
 {
+  "id": "2004"
   "name": "Bob",
   "email": "bob@example.com"
 }
 ```
 
 PUT /api/users/:id
+
 🔹 Update an existing user by ID
+
 🔸 Body Example:
 
 ```bash
@@ -74,6 +80,7 @@ PUT /api/users/:id
 ```
 
 DELETE /api/users/:id
+
 🔹 Delete a user by ID
 
 ## 📌 Notes
