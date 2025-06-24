@@ -46,6 +46,36 @@ node app.js
 ## 🧪 Testing with Postman
 You can use Postman or any REST client to test the endpoints. Make sure the server is running at http://localhost:3000.
 
+
+📮 API Endpoints (CRUD)
+GET /api/users
+🔹 Fetch all users
+
+POST /api/users
+🔹 Create a new user
+🔸 Body Example:
+
+```bash
+{
+  "name": "Bob",
+  "email": "bob@example.com"
+}
+```
+
+PUT /api/users/:id
+🔹 Update an existing user by ID
+🔸 Body Example:
+
+```bash
+{
+  "name": "Bob Updated",
+  "email": "bob.updated@example.com"
+}
+```
+
+DELETE /api/users/:id
+🔹 Delete a user by ID
+
 ## 📌 Notes
 This project is ideal for learning purposes.
 
