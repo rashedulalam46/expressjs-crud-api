@@ -56,11 +56,28 @@ GET /api/users
 🔸 Body Example:
 
 ```bash
-{
-  "id": "2004"
-  "name": "Bob",
-  "email": "bob@example.com"
-}
+[
+    {
+        "id": "2001",
+        "name": "Alice",
+        "email": "alice@example.com"
+    },
+    {
+        "id": "2002",
+        "name": "Bob",
+        "email": "bob@example.com"
+    },
+    {
+        "id": "2003",
+        "name": "Mr. Kevin",
+        "email": "kevin@example.com"
+    },
+    {
+        "id": "2004",
+        "name": "Cody",
+        "email": "cody@example.com"
+    }
+]
 ```
 
 POST /api/users
