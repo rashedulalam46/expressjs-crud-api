@@ -53,7 +53,18 @@ GET /api/users
 
 🔹 Fetch all users
 
+🔸 Body Example:
+
+```bash
+{
+  "id": "2004"
+  "name": "Bob",
+  "email": "bob@example.com"
+}
+```
+
 POST /api/users
+
 🔹 Create a new user
 
 🔸 Body Example:
@@ -88,5 +99,11 @@ This project is ideal for learning purposes.
 
 For production, consider using a database like MongoDB or PostgreSQL.
 
+## 🤝 Contributing
+Pull requests are welcome! If you find bugs or have suggestions, feel free to open an issue.
+
 ## 📄 License
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
+
+## 👤 Author
+[Rashedul Alam](https://github.com/rashedulalam46)
